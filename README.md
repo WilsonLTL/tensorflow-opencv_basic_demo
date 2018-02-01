@@ -18,25 +18,30 @@ opencv v3.4.0:https://github.com/opencv/opencv<br />
 refer自 https://www.tensorflow.org/install/install_mac<br />
 
 ### opencv部分:<br />
+基礎測試
 
-```
+```python
+#cv2 = opencv
 import cv2
 
-cv2.namedWindow("preview")
-vc = cv2.VideoCapture(0)
+#啟動webcam
+cv2.namedWindow("testing_preview")
+wc = cv2.VideoCapture(0)
 
-rval, frame = vc.read()
+#讀取畫面
+rval, frame = wc.read()
 
+#無限loop
 while True:
 
   if frame is not None:
      cv2.imshow("preview", frame)
-  rval, frame = vc.read()
+  rval, frame = wc.read()
 
   if cv2.waitKey(1) & 0xFF == ord('q'):
      break
 
-vc.release()
+wc.release()
 
 cv2.destroyAllWindows()
 
