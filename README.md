@@ -19,6 +19,26 @@ opencv v3.4.0:https://github.com/opencv/opencv<br />
 ## tensorflow部分:<br />
 refer自 https://www.tensorflow.org/install/install_mac<br />
 
+首先安裝最為重要的pip套件:
+```
+sudo easy_install pip
+pip install --upgrade virtualenv 
+```
+
+mac我默認安裝了cpu版本的tensorflow:
+```
+pip install tensorflow
+```
+
+然後分別安裝pillow (Python的圖像處理庫) , lxml (spider) , jupyter (notebook) , matplotlib (math expression) :
+``` 
+sudo pip install pillow
+sudo pip install lxml
+sudo pip install jupyter
+sudo pip install matplotlib
+```
+
+
 ## opencv部分:<br />
 ### 基礎測試
 
