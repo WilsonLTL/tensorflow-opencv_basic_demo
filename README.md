@@ -11,7 +11,7 @@ opencv v3.4.0:https://github.com/opencv/opencv<br />
   <li>tensorflow 1.5</li>
 </ul>
 
-首先本篇並不推薦缺乏ML與DP基本知識的朋友現時學習,詳細知識理論可以在網上自己學習<br />
+首先本篇並不推薦缺乏ML與DL基本知識的朋友現時學習,詳細知識理論可以在網上自己學習<br />
 要求擁有一種以上的編程語言為熟識階段,最好是python,不過即使不認識python也不用太擔心<br />
 
 ## tensorflow部分:<br />
