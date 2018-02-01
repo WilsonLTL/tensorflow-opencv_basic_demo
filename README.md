@@ -8,7 +8,7 @@ opencv v3.4.0:https://github.com/opencv/opencv<br />
   <li>mac os</li>
   <li>python2.7</li>
   <li>opencv 3.4.0</li>
-  <li>tensorflow v1.5</li>
+  <li>tensorflow 1.5</li>
 </ul>
 
 首先本篇並不推薦缺乏ML與DP基本知識的朋友現時學習,詳細知識理論可以在網上自己學習<br />
