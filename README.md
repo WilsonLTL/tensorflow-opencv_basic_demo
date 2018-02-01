@@ -38,6 +38,10 @@ sudo pip install jupyter
 sudo pip install matplotlib
 ```
 
+然後使用git直接downolad github的tensorflow source ,還沒有git就先去下載一下<br />
+```
+git clone https://github.com/tensorflow/tensorflow.git
+```
 
 ## opencv部分:<br />
 ### 基礎測試
