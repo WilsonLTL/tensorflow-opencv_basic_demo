@@ -46,11 +46,12 @@ sudo pip install matplotlib
 git clone https://github.com/tensorflow/tensorflow.git
 ```
 
-根據早前在tensorflow issue其他大神的發現,我們需要先對protobuffer進行篇譯: <br >
+根據早前在tensorflow issue其他大神的發現,我們需要先對protobuf進行篇譯: <br >
 ```
 cd ~/Desktop/tensorflow/models/research
 protoc object_detection/protos/*.proto --python_out=.
 ```
+同理,沒protobuf自己去下載一下<br />
 之後應該可以嘗試運行:
 ```
 cd object_detection
