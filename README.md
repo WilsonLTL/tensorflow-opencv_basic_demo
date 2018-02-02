@@ -116,5 +116,5 @@ cv2.destroyAllWindows()
 ```
 
 如果成功你應該可以看到類似的畫面:<br >
-![image001](https://github.com/WilsonLTL/tensorflow-opencv_basic_demo/blob/master/001.png)
+![image004](https://github.com/WilsonLTL/tensorflow-opencv_basic_demo/blob/master/004.png)
 
