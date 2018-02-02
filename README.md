@@ -64,6 +64,24 @@ jupyter notebook
 
 object_detection_tutorial.ipynb，解釋了大部分使用object_detection的基礎技巧,各位可以自己研究一下<br >
 
+## models差異
+tensorflow提供大量不同類型的models以供使用:
+<table>
+  <tr><td>Model name</td><td>Speed (ms)</td><td>COCO mAP[^1]</td></tr>
+  <tr><td>ssd_mobilenet_v1_coco</td><td>30</td><td>21</td></tr>
+  <tr><td>ssd_inception_v2_coco</td><td>42</td><td>24</td></tr>
+  <tr><td>faster_rcnn_inception_v2_coco</td><td>58</td><td>28</td></tr>
+  <tr><td>faster_rcnn_resnet50_coco</td><td>89</td><td>30</td></tr>
+  <tr><td>faster_rcnn_resnet50_lowproposals_coco</td><td>64</td><td></td></tr>
+  <tr><td>rfcn_resnet101_coco</td><td>92</td><td>30</td></tr>
+  <tr><td>faster_rcnn_resnet101_coco</td><td>106</td><td>32</td></tr>
+  <tr><td>faster_rcnn_resnet101_lowproposals_coco</td><td>82</td><td></td></tr>
+  <tr><td>faster_rcnn_inception_resnet_v2_atrous_coco</td><td>620</td><td>37</td></tr>
+  <tr><td>faster_rcnn_inception_resnet_v2_atrous_lowproposals_coco</td><td>241</td><td></td></tr>
+  <tr><td>faster_rcnn_nas</td><td>1833</td><td>43</td></tr>
+  <tr><td>faster_rcnn_nas_lowproposals_coco</td><td>540</td><td></td></tr>
+</table>
+
 ## opencv部分:<br />
 import opencv的方法網上有很多,再加上不同版本之間也有不同,所以各位可以自己找最適合自己的版本<br >
 ### 基礎測試
