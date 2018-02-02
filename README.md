@@ -7,7 +7,7 @@ opencv v3.4.0:https://github.com/opencv/opencv<br />
 
 ## 本篇使用基本配置:
 <ul>
-  <li>mac os</li>
+  <li>mac os 10.12.6</li>
   <li>python2.7</li>
   <li>opencv 3.4.0</li>
   <li>tensorflow 1.5</li>
