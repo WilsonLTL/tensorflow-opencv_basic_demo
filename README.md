@@ -68,7 +68,7 @@ object_detection_tutorial.ipynb，解釋了大部分使用object_detection的基
 ref:https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 tensorflow提供大量不同類型的models以供使用:
 <table>
-  <tr><td>Model name</td><td>Speed (ms)</td><td>COCO mAP[^1]</td></tr>
+  <tr><td>Model name</td><td>Speed (ms)</td><td>COCO mAP</td></tr>
   <tr><td>ssd_mobilenet_v1_coco</td><td>30</td><td>21</td></tr>
   <tr><td>ssd_inception_v2_coco</td><td>42</td><td>24</td></tr>
   <tr><td>faster_rcnn_inception_v2_coco</td><td>58</td><td>28</td></tr>
