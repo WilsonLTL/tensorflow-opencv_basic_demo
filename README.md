@@ -85,7 +85,7 @@ tensorflow提供大量不同類型的models以供使用:
 其中ssd_mobilenet_v1_coco最為適合realtime video analysis,但精準度不高,具體的差別可以自己嘗試一下<br >
 
 ## opencv部分:<br />
-import opencv的方法網上有很多,再加上不同版本之間也有不同,所以各位可以自己找最適合自己的版本<br >
+import opencv的方法網上有很多,再加上不同版本之間也有差異,所以各位可以自己找最適合自己的版本<br >
 ### 基礎測試
 
 ```python
