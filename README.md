@@ -62,7 +62,7 @@ jupyter notebook
 運行(click)object_detection_tutorial.ipynb,應該可以得出以下:
 ![image003](https://github.com/WilsonLTL/tensorflow-opencv_basic_demo/blob/master/003.png)
 
-object_detection_tutorial.ipynb，解釋了大部分使用object_detection的技巧,各位可以自己研究一下<br >
+object_detection_tutorial.ipynb，解釋了大部分使用object_detection的基礎技巧,各位可以自己研究一下<br >
 
 ## opencv部分:<br />
 ### 基礎測試
