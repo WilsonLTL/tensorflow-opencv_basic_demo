@@ -19,7 +19,7 @@ opencv v3.4.0:https://github.com/opencv/opencv<br />
 ## tensorflow部分:<br />
 refer自 https://www.tensorflow.org/install/install_mac<br />
 
-首先安裝最為重要的pip套件:
+首先打開terminal,安裝最為重要的pip套件:
 ```
 sudo easy_install pip
 pip install --upgrade virtualenv 
@@ -43,6 +43,8 @@ sudo pip install matplotlib
 git clone https://github.com/tensorflow/tensorflow.git
 ```
 
+
+
 ## opencv部分:<br />
 ### 基礎測試
 
@@ -55,14 +57,14 @@ cv2.namedWindow("testing_preview")
 wc = cv2.VideoCapture(0)
 
 #讀取畫面
-rval, frame = wc.read()
+frame = wc.read()
 
 #無限loop
 while True:
 
   if frame is not None:
      cv2.imshow("preview", frame)
-  rval, frame = wc.read()
+  frame = wc.read()
 
   if cv2.waitKey(1) & 0xFF == ord('q'):
      break
