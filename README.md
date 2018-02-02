@@ -65,6 +65,7 @@ jupyter notebook
 object_detection_tutorial.ipynb，解釋了大部分使用object_detection的基礎技巧,各位可以自己研究一下<br >
 
 ## models差異
+ref:https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 tensorflow提供大量不同類型的models以供使用:
 <table>
   <tr><td>Model name</td><td>Speed (ms)</td><td>COCO mAP[^1]</td></tr>
@@ -81,6 +82,7 @@ tensorflow提供大量不同類型的models以供使用:
   <tr><td>faster_rcnn_nas</td><td>1833</td><td>43</td></tr>
   <tr><td>faster_rcnn_nas_lowproposals_coco</td><td>540</td><td></td></tr>
 </table>
+其中ssd_mobilenet_v1_coco最為適合realtime video analysis,但精準度不高,具體的差別可以自己嘗試一下<br >
 
 ## opencv部分:<br />
 import opencv的方法網上有很多,再加上不同版本之間也有不同,所以各位可以自己找最適合自己的版本<br >
