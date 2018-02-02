@@ -38,12 +38,25 @@ sudo pip install jupyter
 sudo pip install matplotlib
 ```
 
-然後使用git直接downolad github的tensorflow source ,還沒有git就先去下載一下<br />
+然後使用git直接downolad github的tensorflow source ,還沒有git就先去下載一下:<br />
 ```
 git clone https://github.com/tensorflow/tensorflow.git
 ```
 
+根據早前在tensorflow issue其他大神的發現,我們需要先對protobuffer進行篇譯: <br >
+```
+cd ~/Desktop/tensorflow/models/research
+protoc object_detection/protos/*.proto --python_out=.
+```
+之後應該可以嘗試運行:
+```
+cd object_detection
+jupyter notebook
+```
+![image002](https://github.com/WilsonLTL/tensorflow-opencv_basic_demo/blob/master/002.png)
 
+運行(click)object_detection_tutorial.ipynb,應該可以得出以下:
+![image003](https://github.com/WilsonLTL/tensorflow-opencv_basic_demo/blob/master/003.png)
 
 ## opencv部分:<br />
 ### 基礎測試
