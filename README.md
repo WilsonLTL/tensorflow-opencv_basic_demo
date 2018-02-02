@@ -64,7 +64,7 @@ jupyter notebook
 
 object_detection_tutorial.ipynb，解釋了大部分使用object_detection的基礎技巧,各位可以自己研究一下<br >
 
-## models差異
+## COCO-trained models差異
 ref:https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 tensorflow提供大量不同類型的models以供使用:
 <table>
