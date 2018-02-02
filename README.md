@@ -65,6 +65,7 @@ jupyter notebook
 object_detection_tutorial.ipynb，解釋了大部分使用object_detection的基礎技巧,各位可以自己研究一下<br >
 
 ## opencv部分:<br />
+import opencv的方法網上有很多,再加上不同版本之間也有不同,所以各位可以自己找最適合自己的版本<br >
 ### 基礎測試
 
 ```python
