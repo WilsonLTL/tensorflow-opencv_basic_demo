@@ -103,7 +103,7 @@ frame = wc.read()
 while True:
 
   if frame is not None:
-     cv2.imshow("preview", frame)
+     cv2.imshow("testing_preview", frame)
   frame = wc.read()
 
   if cv2.waitKey(1) & 0xFF == ord('q'):
