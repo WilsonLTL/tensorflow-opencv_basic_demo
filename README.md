@@ -16,6 +16,9 @@ opencv v3.4.0:https://github.com/opencv/opencv<br />
 首先本篇並不推薦缺乏ML與DL基本知識的朋友現時學習,詳細知識理論可以在網上自己學習<br />
 要求擁有一種以上的編程語言為熟識階段,最好是python,不過即使不認識python也不用太擔心<br />
 
+to python雞精:<br >
+![python](http://coffeeghost.net/pybat/python_cheatsheet.png)
+
 ## tensorflow部分:<br />
 refer自 https://www.tensorflow.org/install/install_mac<br />
 
@@ -57,6 +60,8 @@ jupyter notebook
 
 運行(click)object_detection_tutorial.ipynb,應該可以得出以下:
 ![image003](https://github.com/WilsonLTL/tensorflow-opencv_basic_demo/blob/master/003.png)
+
+object_detection_tutorial.ipynb，解釋了解大部分使用object_detection的技巧,各位可以自己研究一下<br >
 
 ## opencv部分:<br />
 ### 基礎測試
