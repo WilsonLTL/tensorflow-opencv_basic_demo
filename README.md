@@ -121,6 +121,7 @@ cv2.destroyAllWindows()
 A real time child AI video analysis base on opencv and tensorflow-object-detection api <br >
 pseudo code: <br />
 
+```
 import tf,cv2,sys,os,numpy,tarfile,utils<br />
 class <br />
   setting models detail<br />
@@ -133,6 +134,6 @@ class <br />
     show the result<br />
     
     break if system call exit<br />
-    
+```
 
 
