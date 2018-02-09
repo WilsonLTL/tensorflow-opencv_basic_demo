@@ -117,4 +117,22 @@ cv2.destroyAllWindows()
 
 如果成功你應該可以看到類似的畫面:<br >
 
+## Tutorial
+A real time child AI video analysis base on opencv and tensorflow-object-detection api <br >
+pseudo code: <br />
+
+import tf,cv2,sys,os,numpy,tarfile,utils<br />
+class <br />
+  setting models detail<br />
+  download the models<br />
+  fun detection graph as deafult ...<br />
+  
+  while true loop:<br />
+    read the frame from cv2<br />
+    analysis from models<br />
+    show the result<br />
+    
+    break if system call exit<br />
+    
+
 
