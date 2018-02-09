@@ -122,18 +122,18 @@ A real time child AI video analysis base on opencv and tensorflow-object-detecti
 pseudo code: <br />
 
 ```
-import tf,cv2,sys,os,numpy,tarfile,utils<br />
-class <br />
-  setting models detail<br />
-  download the models<br />
-  fun detection graph as deafult ...<br />
+import tf,cv2,sys,os,numpy,tarfile,utils
+class 
+  setting models detail
+  download the models
+  fun detection graph as deafult ...
   
-  while true loop:<br />
-    read the frame from cv2<br />
-    analysis from models<br />
-    show the result<br />
+  while true loop:
+    read the frame from cv2
+    analysis from models
+    show the result
     
-    break if system call exit<br />
+    break if system call exit
 ```
 
 
